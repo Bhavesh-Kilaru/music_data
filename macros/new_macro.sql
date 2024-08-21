@@ -1,4 +1,4 @@
-{{ macro new_macro(name)}}
+{{% macro new_macro(name) %}}
 
 'hello {{name}}'
 
