@@ -1,5 +1,5 @@
-{{% macro new_macro(name) %}}
+{% macro new_macro(name) %}
 
-'hello {{name}}'
+    'hello {{ name }}'
 
-{{% enddmacro %}}
+{% endmacro %}
